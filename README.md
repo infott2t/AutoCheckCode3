@@ -1,4 +1,8 @@
 # AutoCheckCode3
+
+Let's safely use smartphones, etc. ; 스마트기기. 안전하게 사용합시다.
+
+
 Hello~. Github. Share, intellect. Like school, say people funny way. Thank you.
 
 Make, like method, ... code. Programming check, make function throught Swing Java. This program. Thank you.

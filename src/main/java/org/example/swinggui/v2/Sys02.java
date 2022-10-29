@@ -15,7 +15,7 @@ public class Sys02 extends JFrame {
     private JScrollPane jsp1,jsp2,jsp3;
     private JButton btn1,btn2,btn3;
 
-    static UtilSysV2 usv1;
+    static UtilSysV2 usv2;
 
     Sys02(){
         jp1=new JPanel();
@@ -61,7 +61,31 @@ public class Sys02 extends JFrame {
                         btn1.setText("버튼 입력");
                     }
                 }
-                else if(jtf1.getText().equals("0")){}
+                else if(jtf1.getText().equals("0")){
+                    //new some class. How about this. Comm00. So,  new Comm00();
+                    /**
+                     * Let's safely use smartphones, etc. ; 스마트기기. 안전하게 사용합시다. 좋은 습관을 만들어요.
+                     * Long sentences. ; 장문이네요.
+                     * ...
+                     *
+                     * 전에 만들던 노트 붙이고... 텍스트 제목은, 클래스이름, I, C이렇게 붙여도 되고... 제목에 클래스이름, 메소드.... 이렇게 적어도 되구요. 다 사람마다 방법이 있겠죠.
+                     * 기본형태. 메소드 1개만 할 것인가, 메소드 1개에 어떤 순서를 해줘야하는가... 이런 부분. 배열을 통해 값을 빼오는 경우, 또, 형변환도 있을 수 있겠죠.
+                     * 메소드가 커지만, 헷갈리더군요. 규칙이 있는편이 개발할 때 더 수월할 것 같아요. 저의 Github참조해보세요. 공부, 해보세요. 감사합니다.
+                     *
+                     * 조금 쉬어야겠군요. 저의 Github, 봐 주셔서 감사합니다. 작성자,  https://github.com/infott2t
+                     * 그리고, 이 Git은, https://github.com/infott2t/AutoCheckCode3 일검니다. 공부하신다면...
+                     * 웹프로그래밍 공부하셔도 좋구요. 자바 스윙이네요.
+                     *
+                     * https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3  이 Github참조해보세요.
+                     *
+                     * SpringBoot의 경우, QueryDSL사용 추천해보네요. 셀렉트할 때는 QueryDSL. 괜찮은 것 같아요. 인프런이라는 학습사이트에 관련 강좌 있다고 하구요.
+                     * 또, 교회. 다녀보세요. 기독교. 전화도 해보세요. 사회에서 쉴 곳. 하고 싶은 말이네요.
+                     *
+                     * 좋은 하루되세요.
+                     *
+                     * 저의 글, 봐 주셔서 감사합니다.
+                     * ***/
+                }
                 else if(jtf1.getText().equals("1")){
 
                 }

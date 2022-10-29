@@ -37,7 +37,7 @@ public class Sys01_Default extends JFrame {
         jp1.add(jl3);
         jp1.add(jsp1);
         jp1.add(btn1);
-
+        setTitle("Default Format version 1");
         setVisible(true);
         setResizable(true);
         add(jp1);

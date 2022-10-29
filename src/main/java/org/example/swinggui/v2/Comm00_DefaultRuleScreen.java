@@ -23,18 +23,66 @@ public class Comm00_DefaultRuleScreen extends JFrame{
         jl1 = new JLabel("Check Default Rule.\n");
         jl2 = new JLabel("0. version save 1. version load");
         jtf1 = new JTextField(20);
-        jl3 = new JLabel("How do I try like, this. 'Number input and click.'"); //Design, add or extract this line.
+        jl3 = new JLabel("How do I try like, this. 'Number input and enter.'"); //Design, add or extract this line.
         jta1 = new JTextArea(5,20);
         jsp1 = new JScrollPane(jta1);
         jsp1.setPreferredSize(new Dimension(600,400));
 
-        jta1.setText(" Class Name/ Type \n" +
+       /* jta1.setText(" Class Name/ Type \n" +
                 "\n" +
                 "\n" +
                 " Focusing Method... | yyyy/mm/dd HH:SS | Notice\n" +
                 "\n" +
                 "\n" +
                 " Methods...");
+
+        */
+        jta1.setText(" Class Name/ Type \n" +
+                "\n" +
+                "\n" +
+                " Focusing Method... | yyyy/mm/dd HH:SS | Notice\n" +
+                "\n" +
+                "\n" +
+                "\n Methods, Rule type A"+
+                "\n 1. return method Name: ex) ManList listing() "+
+                "\n 2. inner logic rule fix programing : " +
+                "\n" +
+                "\n ex) Long and change String.  Vari: int[] manTall -> Long[] manTallLong\n"+
+                "\n Long[] manTallLong = new Long[manTall.length];" +
+                "\n for(int i=0; i< manTall.length; i++){ manTallLong[i] = Long.Long.valueOf(manTall[i])}"+
+                "\n  "+
+                "\n (so, Like this.... so I not test this example coding.)"+
+                "\n "+
+                "\n "+
+                "\n     ManList listing() "+
+                "\n"+
+                "\n                             Methods, Rule type A"+
+                "\n                             RULE METHOD IN FIRST,  Change Int -> Long." +
+                "\n                             EXPLANATE::                                                                                                                                                          Long and change String.  Vari: int[] manTall -> Long[] manTallLong  Long[] manTallLong = new Long[manTall.length];" +
+                "\n"+
+                "\n                             DEFAULT CODE WRITE : " +
+                "\n                                                  for(int i=0; i< .length; i++){ VRIABLE_INT[i] = Long.valueOf(VARIABLE_LONG[i])}" +
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n "+
+                "\n ");
+
+
        // btn1 = new JButton("버튼 입력");
 
         jp1.add(jsp1);
@@ -64,7 +112,44 @@ public class Comm00_DefaultRuleScreen extends JFrame{
                                 " Focusing Method... | yyyy/mm/dd HH:SS | Notice\n" +
                                 "\n" +
                                 "\n" +
-                                " Methods...");
+                                "\n Methods, Rule type A"+
+                                "\n 1. return method Name: ex) ManList listing() "+
+                                "\n 2. inner logic rule fix programing : " +
+                                "\n" +
+                                "\n ex) Long and change String.  Vari: int[] manTall -> Long[] manTallLong\n"+
+                                "\n Long[] manTallLong = new Long[manTall.length];" +
+                                "\n for(int i=0; i< manTall.length; i++){ manTallLong[i] = Long.Long.valueOf(manTall[i])}"+
+                                "\n  "+
+                                "\n (so, Like this.... so I not test this example coding.)"+
+                                "\n "+
+                                "\n "+
+                                "\n     ManList listing() "+
+                                "\n"+
+                                "\n                             Methods, Rule type A"+
+                                "\n                             RULE METHOD IN FIRST,  Change Int -> Long." +
+                                "\n                             EXPLANATE::                                                                                                                                                          Long and change String.  Vari: int[] manTall -> Long[] manTallLong  Long[] manTallLong = new Long[manTall.length];" +
+                                "\n"+
+                                "\n                             DEFAULT CODE WRITE : " +
+                                "\n                                                  for(int i=0; i< .length; i++){ VRIABLE_INT[i] = Long.valueOf(VARIABLE_LONG[i])}" +
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n "+
+                                "\n ");
 
                 }
                 else if(jtf1.getText().equals("0")){}

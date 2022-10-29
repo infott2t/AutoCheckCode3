@@ -27,7 +27,7 @@ public class Sys02 extends JFrame {
         jsp1 = new JScrollPane(jta1);
         jsp1.setPreferredSize(new Dimension(300,200));
 
-        jta1.setText(" Let's safely life. \n Java Swing, I mading, AutoCheckCode3. ...\n Hello. How about this. Let's go there. Church. Jesus Christ.\n Calling. Social resting place.\n" +
+        jta1.setText("Let's safely life. \n Java Swing, I mading, AutoCheckCode3. ...\n Hello. How about this. Let's go there. Church. \nJesus Christ. Calling. Social resting place.\n" +
                 " I like this writing. Thank you. \n\n - writter, https://github.com/infott2t ");
         btn1 = new JButton("버튼 입력");
 
@@ -54,7 +54,7 @@ public class Sys02 extends JFrame {
                         jta1.setText("Clicked. Thank you.");
                         btn1.setText("처음으로");
                     } else if (btn1.getText().equals("처음으로")) {
-                        jta1.setText("Let's safely life. \n Java Swing, I mading, AutoCheckCode3. ...\n Hello. How about this. Let's go there. Church. Jesus Christ.\n Calling. Social resting place.\n" +
+                        jta1.setText("Let's safely life. \n Java Swing, I mading, AutoCheckCode3. ...\n Hello. How about this. Let's go there. Church. \nJesus Christ. Calling. Social resting place.\n" +
                                 " I like this writing. Thank you. \n\n - writter, https://github.com/infott2t ");
 
                         btn1.setText("버튼 입력");

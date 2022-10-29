@@ -1,4 +1,4 @@
-package org.example.swinggui.v2;
+package org.example.swinggui.v1;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-public class Sys02 extends JFrame {
+public class Sys01_Default extends JFrame {
 
     private JPanel jp1;
     private JLabel jl1,jl2,jl3;
@@ -15,9 +15,9 @@ public class Sys02 extends JFrame {
     private JScrollPane jsp1,jsp2,jsp3;
     private JButton btn1,btn2,btn3;
 
-    static UtilSysV2 usv1;
+    static UtilSysV1 usv1;
 
-    Sys02(){
+    Sys01_Default(){
         jp1=new JPanel();
         jl1 = new JLabel("Long method texting. Help note.");
         jl2 = new JLabel("\n0. defalut type save, 1. save, 2. load,  3.erase");
@@ -71,7 +71,7 @@ public class Sys02 extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Sys02();
+        new Sys01_Default();
     }
 }
 

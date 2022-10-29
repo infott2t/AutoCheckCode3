@@ -19,10 +19,10 @@ public class Sys01_Default extends JFrame {
 
     Sys01_Default(){
         jp1=new JPanel();
-        jl1 = new JLabel("Long method texting. Help note.");
-        jl2 = new JLabel("\n0. defalut type save, 1. save, 2. load,  3.erase");
+        jl1 = new JLabel("Title. ...");
+        jl2 = new JLabel("\n?");
         jtf1 = new JTextField(20);
-        jl3 = new JLabel("Number input and enter.");
+        jl3 = new JLabel("How do I try like, this. 'Number input and enter.'");
         jta1 = new JTextArea(5,20);
         jsp1 = new JScrollPane(jta1);
         jsp1.setPreferredSize(new Dimension(300,200));

@@ -18,6 +18,12 @@ public class Sys02 extends JFrame {
     static UtilSysV2 usv2;
 
     Sys02(){
+        /***
+         *  환경 설정. 파일저장할 폴더를 선택해주세요.
+         *  Config, File save folder, this --->   usv2.fileSaveDirectory
+         * **/
+        usv2.fileSaveDirectory = "C:\\category\\";
+
         jp1=new JPanel();
         jl1 = new JLabel("Long method texting. Help note.");
         jl2 = new JLabel("\n0. defalut type save, 1. save, 2. load,  3.erase");

@@ -6,6 +6,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 
 public class Comm00_DefaultRuleScreen extends JFrame{
 
@@ -152,7 +155,14 @@ public class Comm00_DefaultRuleScreen extends JFrame{
                                 "\n ");
 
                 }
-                else if(jtf1.getText().equals("0")){}
+                else if(jtf1.getText().equals("0")){
+
+                    usv2.queryYNScreenStr1 = "Rule Default Type";
+
+                    new QueryYNScreen(usv2);
+
+
+                }
                 else if(jtf1.getText().equals("1")){
 
                 }

@@ -63,6 +63,10 @@ public class Sys02 extends JFrame {
                 }
                 else if(jtf1.getText().equals("0")){
                     //new some class. How about this. Comm00. So,  new Comm00();
+                    //And We sending, variable... vari. like this. new Comm00(int a, int b, String aStr);
+                    //New Screen.
+                    usv2 = new UtilSysV2("0. Rule Default Type.");
+                    new Comm00_DefaultRuleScreen(usv2);
                     /**
                      * Let's safely use smartphones, etc. ; 스마트기기. 안전하게 사용합시다. 좋은 습관을 만들어요.
                      * Long sentences. ; 장문이네요.
@@ -76,7 +80,7 @@ public class Sys02 extends JFrame {
                      * 그리고, 이 Git은, https://github.com/infott2t/AutoCheckCode3 일검니다. 공부하신다면...
                      * 웹프로그래밍 공부하셔도 좋구요. 자바 스윙이네요.
                      *
-                     * https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3  이 Github참조해보세요.
+                     * https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3
                      *
                      * SpringBoot의 경우, QueryDSL사용 추천해보네요. 셀렉트할 때는 QueryDSL. 괜찮은 것 같아요. 인프런이라는 학습사이트에 관련 강좌 있다고 하구요.
                      * 또, 교회. 다녀보세요. 기독교. 전화도 해보세요. 사회에서 쉴 곳. 하고 싶은 말이네요.

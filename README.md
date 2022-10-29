@@ -16,8 +16,8 @@ How to use traslate~.
 코딩하기가 더 편해지겠죠. 이것으로 개발해보세요. 만들어갈 예정입니다.  
 
 
-2022년 10월 29일... 적다보니, 전에 저의 깃헙.  https://github.com/infott2t/AutoCheckCode 여기에 적어야하는데, 
-
+2022년 10월 29일... 적다보니, 전에 저의 깃헙.  https://github.com/infott2t/AutoCodeCheck 여기에 적어야하는데, 
+                                           
 깃헙 사용을 잘 하지는 못해서... 이렇게 되네요. 여기에 이어서 적을 예정입니다.
 
 

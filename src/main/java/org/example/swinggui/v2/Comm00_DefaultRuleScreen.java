@@ -158,7 +158,7 @@ public class Comm00_DefaultRuleScreen extends JFrame{
                 else if(jtf1.getText().equals("0")){
 
                     usv2.queryYNScreenStr1 = "Rule Default Type";
-
+                    usv2.saveText = jta1.getText();
                     new QueryYNScreen(usv2);
 
 

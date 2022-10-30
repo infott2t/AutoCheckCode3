@@ -9,6 +9,7 @@ public class UtilSysV2 {
     public static String tableName;
     public static String queryYNScreenStr1;
     public static String fileSaveDirectory;
+    public static String saveText;
 
     public UtilSysV2(String tableName){
         this.tableName = tableName;
@@ -30,6 +31,24 @@ public class UtilSysV2 {
             a.printStackTrace();
         }
     }
+
+    public void fileSaveUtilText(String saveText, String fileName){
+        try {
+            File file = new File(fileSaveDirectory + fileName );
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+
+            FileWriter fw = new FileWriter(file);
+            BufferedWriter writer = new BufferedWriter(fw);
+            writer.write(saveText);
+            writer.close();
+        }catch(Exception a){
+            a.printStackTrace();
+        }
+    }
+
+
 
 
 }

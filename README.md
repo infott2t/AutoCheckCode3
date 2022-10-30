@@ -15,7 +15,7 @@ How to use traslate~.<br/><br/>
 <h4>SWING JAVA</h4> <b>Reference</b> : https://www.java.com/  
 
 <h4>How to study, Programing GUI, JAVA</h4> I make before so, reading my article. Like this link. https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3 Enjoy day. Thank you.
-<br/><br/>
+<br/><br/><br/><br/>
 
 <b>2022년 10월 25일... </b>함수라던지... 쭉 적고... 이런 부분이네요.
 

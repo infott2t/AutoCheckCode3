@@ -9,6 +9,14 @@ Make, like method, ... code. Programming check, make function throught Swing Jav
 
 How to use traslate~.<br/><br/>
 
+
+<h4>Config</h4> <b>About Save file Directory</b>, Sys02.java file, ---> usv2.fileSaveDirectory. Initial setting,  usv2.fileSaveDirectory = "C:\\category\\";
+
+<h4>SWING JAVA</h4> <b>Reference</b> : https://www.java.com/  
+
+<h4>How to study, Programing GUI, JAVA</h4> I make before so, reading my article. Like this link. https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3 Enjoy day. Thank you.
+<br/><br/>
+
 <b>2022년 10월 25일... </b>함수라던지... 쭉 적고... 이런 부분이네요.
 
 함수추가하기, 변수이름 적기. 변환이 어떻게 필요한가... 메소드안에서 기능을 추가할 때 마다, for문. 이런 부분을 찾기 어렵게 된달까요. 그런것을 정리하는 기능을 만들어볼 예정입니다.
@@ -24,6 +32,7 @@ How to use traslate~.<br/><br/>
 <b>2022년 10월 30일...</b> GUI디자인을 배우고 싶다. 이런 분들도 계시겠죠. 여기를 보고, 공부해보세요. 이런 생각이 들더군요.
 
 https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3 재미있네요. 
+
 <br/><br/><br/><br/><br/><br/>
 
 감사합니다. 좋은 하루, 좋은 개발되세요.<br/><br/>

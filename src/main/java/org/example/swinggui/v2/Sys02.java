@@ -44,7 +44,7 @@ public class Sys02 extends JFrame {
         jp1.add(jsp1);
         jp1.add(btn1);
 
-        setTitle("Automation code, care work");
+        setTitle("Automation code, care work, Web Programming.");
         setVisible(true);
         setResizable(true);
         add(jp1);

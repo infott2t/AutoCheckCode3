@@ -34,6 +34,38 @@ public class TexttingC {
             "\t\t\t\t\t.\n" +
             "\t\t\t\t\t.build();\n";
 
+    public static String sys02ForExampleTableFocusing2 = "Reciept03\t\n" +
+            "\t\tFollow Down side.\n" +
+            "\n" +
+            " Focusing Table... | 2022-10-31 HH:SS | Notice\n" +
+            "\n" +
+            "\n" +
+            "Table Name...\tReciept03\t\t\n" +
+            "\n" +
+            "insertReciptByCusId()\n" +
+            "\t\n" +
+            "searchUpdateInit()\t\n" +
+            "searchUpdateCountProduct()\t\t\n" +
+            "searchUpdateRecieptNumber()\t\t\n" +
+            "searchUpdateOrderNumber()\t\t\n" +
+            "searchUpdateC()\t\n" +
+            "searchUpdateD()\n" +
+            "\n" +
+            "\n" +
+            "\n" +
+            "\n" +
+            "=== Deep dive.\n" +
+            "\n" +
+            "\tinsertReciptByCusId(cus01, dto, cart)\n" +
+            "\n" +
+            "\tsearchUpdateInit()\t\n" +
+            "\tsearchUpdateCountProduct(productNumber, count)\t\t\n" +
+            "\tsearchUpdateRecieptNumber(recieptNumber)\t\t\n" +
+            "\tsearchUpdateOrderNumber(orderNumber)\t\t\n" +
+            "\tsearchUpdateC()\t\n" +
+            "\tsearchUpdateD()\n" +
+            "\t \n";
+
     public static String sys02ForExampleTableFocusing1 = "Reciept03\t Table.\t\n" +
             "\n" +
             "\n" +

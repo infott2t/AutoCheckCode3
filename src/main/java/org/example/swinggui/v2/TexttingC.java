@@ -33,6 +33,34 @@ public class TexttingC {
             "\t\t\t\t\t.\n" +
             "\t\t\t\t\t.\n" +
             "\t\t\t\t\t.build();\n";
+
+    public static String sys02ForExampleTableFocusing1 = "Reciept03\t Table.\t\n" +
+            "\n" +
+            "\n" +
+            " Focusing Table... | 2022-10-31 HH:SS | Notice\n" +
+            "\n" +
+            "\n" +
+            "Table Name...\tReciept03\t\t\t\tBBBController\t\tBBBController\t\t\tBBBController\t\t\tBBController\t\t\tBBBController\t\tBBBController\n" +
+            "\n" +
+            "\t\tTable insert1\t\t\tTable Update2\t\tTable Update3\t\t\tTable Update4\t\t\tTable Update5 \t\t\tTable Update6\t\tTable Update7   \t\t\t\t\n" +
+            "\n" +
+            "RestController\t\tsearch_ByUserId()\t\t\n" +
+            "\t\t\n" +
+            "\t\tinsertReciptByCusId()\t\tsearchUpdateInit()\tsearchUpdateCountProduct()\t\tsearchUpdateRecieptNumber()\t\tsearchUpdateOrderNumber()\t\tsearchUpdateC()\tsearchUpdateD()\n" +
+            "\n" +
+            "\n" +
+            "\n" +
+            "\n" +
+            "Down side.\n" +
+            "\n" +
+            "insertReciptByCusId()\n" +
+            "\t\n" +
+            "searchUpdateInit()\t\n" +
+            "searchUpdateCountProduct()\t\t\n" +
+            "searchUpdateRecieptNumber()\t\t\n" +
+            "searchUpdateOrderNumber()\t\t\n" +
+            "searchUpdateC()\t\n" +
+            "searchUpdateD()";
     public static String sys02ForExampleTableFocusing = "Class Name/ Type \n" +
             "\n" +
             "\n" +

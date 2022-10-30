@@ -52,6 +52,7 @@ public class UtilSysV2 {
     public void fileLoadUtilText(String fileName) {
         String fileString = fileSaveDirectory + fileName;
         FileReader fr = null;
+        saveText="";
         try{
             fr = new FileReader(fileString);
             if(fr!= null) {

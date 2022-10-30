@@ -48,7 +48,7 @@ public class QueryYNLoadScreen extends JFrame{
                     usv2.fileLoadUtilText(jtf1.getText()+".txt");
                     btn1.setText("Loaded");
                     jl3.setText("Now Load File : " + usv2.fileSaveDirectory + jtf1.getText()+".txt");
-                    usv2.tableName = "0. Rule | " + jtf1.getText();
+                    usv2.tableName = "  DEBUG | " + jtf1.getText();
                     new Comm00_DefaultRuleScreen(usv2);
                 }
             }

@@ -13,6 +13,26 @@ public class TexttingC {
         "\n" +
         " Methods...";
 
+    public static String sys02ForExampleBuilderCheck = "Reciept03\t\t\t\t\n" +
+            "\t\t\tFocusing Table... | 2022-10-31 HH:SS \n" +
+            "\n" +
+            "Builder Check. \t\tinsert1.\n" +
+            "\n" +
+            "\n" +
+            "\n" +
+            "\n" +
+            "\n" +
+            "Table Name...\tReciept03\n" +
+            "\n" +
+            "\n" +
+            "ClassName\t\tTable insert1\t\tBuilderCheck.\t\t \t\t\t\t\n" +
+            "\n" +
+            "Reciept03Service\tinsertReciept()\t\treciept03 = Reciept03.builder()\n" +
+            "\t\t\t\t\t.count(Here)\n" +
+            "\t\t\t\t\t.group(0L)\n" +
+            "\t\t\t\t\t.\n" +
+            "\t\t\t\t\t.\n" +
+            "\t\t\t\t\t.build();\n";
     public static String sys02ForExampleTableFocusing = "Class Name/ Type \n" +
             "\n" +
             "\n" +

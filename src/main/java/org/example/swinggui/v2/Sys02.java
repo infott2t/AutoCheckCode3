@@ -26,7 +26,7 @@ public class Sys02 extends JFrame {
 
         jp1=new JPanel();
         jl1 = new JLabel("Long method texting. Help note.");
-        jl2 = new JLabel("\n0. defalut type save, 1. save, 2. load,  3.erase");
+        jl2 = new JLabel("\n0. defalut type save, 1. save, 2. load,  3.new 4.erase");
         jtf1 = new JTextField(20);
         jl3 = new JLabel("Number input and click.");
         jta1 = new JTextArea(5,20);
@@ -100,7 +100,9 @@ public class Sys02 extends JFrame {
 
                 }
                 else if(jtf1.getText().equals("2")){}
-                else if(jtf1.getText().equals("3")){}
+                else if(jtf1.getText().equals("3")){
+
+                }
             }
         });
     }

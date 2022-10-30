@@ -14,9 +14,16 @@ public class Comm00_DefaultRuleScreen extends JFrame{
     private JScrollPane jsp1,jsp2,jsp3;
     private JButton btn1,btn2,btn3;
 
+    TexttingC textingC;
+
 
 
     Comm00_DefaultRuleScreen(UtilSysV2 usv2){
+
+
+        textingC = new TexttingC();
+
+
         jp1=new JPanel();
         jl1 = new JLabel("Check Default Rule.\n");
         jl2 = new JLabel("0. version save 1. version load");
@@ -26,60 +33,11 @@ public class Comm00_DefaultRuleScreen extends JFrame{
         jsp1 = new JScrollPane(jta1);
         jsp1.setPreferredSize(new Dimension(600,400));
 
-       /* jta1.setText(" Class Name/ Type \n" +
-                "\n" +
-                "\n" +
-                " Focusing Method... | yyyy/mm/dd HH:SS | Notice\n" +
-                "\n" +
-                "\n" +
-                " Methods...");
+       /* jta1.setText();
 
         */
         if("".equals(usv2.saveText)){
-            jta1.setText(" Class Name/ Type \n" +
-                    "\n" +
-                    "\n" +
-                    " Focusing Method... | yyyy/mm/dd HH:SS | Notice\n" +
-                    "\n" +
-                    "\n" +
-                    "\n Methods, Rule type A"+
-                    "\n 1. return method Name: ex) ManList listing() "+
-                    "\n 2. inner logic rule fix programing : " +
-                    "\n" +
-                    "\n ex) Long and change String.  Vari: int[] manTall -> Long[] manTallLong\n"+
-                    "\n Long[] manTallLong = new Long[manTall.length];" +
-                    "\n for(int i=0; i< manTall.length; i++){ manTallLong[i] = Long.Long.valueOf(manTall[i])}"+
-                    "\n  "+
-                    "\n (so, Like this.... so I not test this example coding.)"+
-                    "\n "+
-                    "\n "+
-                    "\n     ManList listing() "+
-                    "\n"+
-                    "\n                             Methods, Rule type A"+
-                    "\n                             RULE METHOD IN FIRST,  Change Int -> Long." +
-                    "\n                             EXPLANATE::                                                                                                                                                          Long and change String.  Vari: int[] manTall -> Long[] manTallLong  Long[] manTallLong = new Long[manTall.length];" +
-                    "\n"+
-                    "\n                             DEFAULT CODE WRITE : " +
-                    "\n                                                  for(int i=0; i< .length; i++){ VRIABLE_INT[i] = Long.valueOf(VARIABLE_LONG[i])}" +
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n "+
-                    "\n ");
+            jta1.setText(textingC.sys02InitTextDefault2);
         }else{
             jta1.setText(usv2.saveText);
         }
@@ -109,50 +67,7 @@ public class Comm00_DefaultRuleScreen extends JFrame{
 
                 if(jtf1.getText() == null || jtf1.getText().equals(null)|| jtf1.getText().equals("")) {
                     if("".equals(usv2.saveText)){
-                        jta1.setText(" Class Name/ Type \n" +
-                                "\n" +
-                                "\n" +
-                                " Focusing Method... | yyyy/mm/dd HH:SS | Notice\n" +
-                                "\n" +
-                                "\n" +
-                                "\n Methods, Rule type A"+
-                                "\n 1. return method Name: ex) ManList listing() "+
-                                "\n 2. inner logic rule fix programing : " +
-                                "\n" +
-                                "\n ex) Long and change String.  Vari: int[] manTall -> Long[] manTallLong\n"+
-                                "\n Long[] manTallLong = new Long[manTall.length];" +
-                                "\n for(int i=0; i< manTall.length; i++){ manTallLong[i] = Long.Long.valueOf(manTall[i])}"+
-                                "\n  "+
-                                "\n (so, Like this.... so I not test this example coding.)"+
-                                "\n "+
-                                "\n "+
-                                "\n     ManList listing() "+
-                                "\n"+
-                                "\n                             Methods, Rule type A"+
-                                "\n                             RULE METHOD IN FIRST,  Change Int -> Long." +
-                                "\n                             EXPLANATE::                                                                                                                                                          Long and change String.  Vari: int[] manTall -> Long[] manTallLong  Long[] manTallLong = new Long[manTall.length];" +
-                                "\n"+
-                                "\n                             DEFAULT CODE WRITE : " +
-                                "\n                                                  for(int i=0; i< .length; i++){ VRIABLE_INT[i] = Long.valueOf(VARIABLE_LONG[i])}" +
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n "+
-                                "\n ");
+                        jta1.setText(textingC.sys02InitTextDefault2);
                     }
                     else{
                         jta1.setText(usv2.saveText);

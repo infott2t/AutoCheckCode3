@@ -1,15 +1,15 @@
 package org.example.swinggui.v2;
 
 import javax.swing.*;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
 
 public class UtilSysV2 {
     public static String tableName;
     public static String queryYNScreenStr1;
     public static String fileSaveDirectory;
-    public static String saveText;
+    public static String saveText ="";
+
+
 
     public UtilSysV2(String tableName){
         this.tableName = tableName;
@@ -49,6 +49,22 @@ public class UtilSysV2 {
     }
 
 
+    public void fileLoadUtilText(String fileName) {
+        String fileString = fileSaveDirectory + fileName;
+        FileReader fr = null;
+        try{
+            fr = new FileReader(fileString);
+            if(fr!= null) {
+                int ch;
+                while((ch=fr.read())!=-1) {
+                    saveText += (char)ch;
+                }
+                fr.close();
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }
 
 
+    }
 }

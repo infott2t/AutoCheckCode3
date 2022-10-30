@@ -1,11 +1,10 @@
 package org.example.swinggui.v2;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class QueryYNScreen extends JFrame{
+public class QueryYNSaveScreen extends JFrame{
 
     private JPanel jp1;
     private JLabel jl1,jl2,jl3;
@@ -13,7 +12,7 @@ public class QueryYNScreen extends JFrame{
     private JTextArea jta1, jta2, jta3;
     private JScrollPane jsp1,jsp2,jsp3;
     private JButton btn1,btn2,btn3;
-    public QueryYNScreen(UtilSysV2 usv2) {
+    public QueryYNSaveScreen(UtilSysV2 usv2) {
         jp1=new JPanel();
         jl1 = new JLabel("Saving... *"+usv2.queryYNScreenStr1+ "*\n");
         jl2 = new JLabel("... Input File Name : ");

@@ -13,6 +13,18 @@ public class TexttingC {
         "\n" +
         " Methods...";
 
+    public static String sys02ForExampleTableFocusing = "Class Name/ Type \n" +
+            "\n" +
+            "\n" +
+            " Focusing Table... | 2022-10-31 HH:SS | Notice\n" +
+            "\n" +
+            "\n" +
+            "Table Name...\tReciept03\n" +
+            "\n" +
+            "\t\tTable insert1\t\tTable Update2\t\tTable Update3\t\tTable Update4\t\tTable Update5    \t\t\t\t\n" +
+            "\n" +
+            "Reciept03Service\tthis.insertReciept()\tupdateReciept()\n" +
+            "\n";
     public static String sys02InitTextDefault2 ="Class Name/ Type \n" +
         "\n" +
         "\n" +

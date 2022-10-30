@@ -37,7 +37,7 @@ public class Comm00_DefaultRuleScreen extends JFrame{
 
         */
         if("".equals(usv2.saveText)){
-            jta1.setText(textingC.sys02InitTextDefault2);
+            jta1.setText(textingC.sys02ForExampleTableFocusing);
         }else{
             jta1.setText(usv2.saveText);
         }
@@ -67,7 +67,7 @@ public class Comm00_DefaultRuleScreen extends JFrame{
 
                 if(jtf1.getText() == null || jtf1.getText().equals(null)|| jtf1.getText().equals("")) {
                     if("".equals(usv2.saveText)){
-                        jta1.setText(textingC.sys02InitTextDefault2);
+                        jta1.setText(textingC.sys02ForExampleTableFocusing);
                     }
                     else{
                         jta1.setText(usv2.saveText);

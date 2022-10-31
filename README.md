@@ -37,7 +37,8 @@ https://github.com/infott2t/Auto_writting_JavaCode_makeSwing3 재미있네요.
 <b>2022년 10월 31일...</b> erase기능은 나중에 언젠가 만들어볼게요. 파일을 열어서 지울 수도 있구요. 완성했습니다. 버그가 있을 때 커밋하구요.
 
 <br/><br/>
-![uiView](https://user-images.githubusercontent.com/25080178/198994831-e8bec197-9e42-4efc-9fa0-313151e93f43.PNG)
+![cap0000000](https://user-images.githubusercontent.com/25080178/199001049-33f568e2-29fd-4a94-a647-e151648036cb.PNG)
+
 
 <br/><br/><br/><br/>
 

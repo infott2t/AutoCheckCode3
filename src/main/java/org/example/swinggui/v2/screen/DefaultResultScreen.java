@@ -21,18 +21,18 @@ public class DefaultResultScreen extends JFrame{
     public DefaultResultScreen(UtilSysV2 usv2){
         className = usv2.tableName;
         jp= new JPanel();
-        jl = new JLabel(" ");
-        jta = new JTextArea(20,50);
+        //jl = new JLabel(" ");
+        jta = new JTextArea(34,71);
         jsp = new JScrollPane(jta);
         //btn = new JButton("");
-        jp.add(jl);
+        //jp.add(jl);
         jp.add(jsp);
        // jp.add(btn);
         add(jp);
         setVisible(true);
         setResizable(true);
         setTitle(": " + className);
-        setBounds(300,300,650,500);
+        setBounds(300,300,800,600);
 
         jta.setText(usv2.saveText);
 

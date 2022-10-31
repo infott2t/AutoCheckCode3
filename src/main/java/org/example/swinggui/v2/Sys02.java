@@ -100,14 +100,16 @@ public class Sys02 extends JFrame {
                      * ***/
                 }
                 else if(jtf1.getText().equals("1")){
-                    usv2.queryYNScreenStr1 = "Rule Default Type";
+                    usv2 = new UtilSysV2();
+                    usv2.queryYNScreenStr1 = "";
                     usv2.saveText = jta1.getText();
                     usv2.commandNumber = "1";
                     jtf1.setText("");
                     new QueryYNSaveScreen(usv2);
                 }
                 else if(jtf1.getText().equals("2")){
-                    usv2.queryYNScreenStr1 = "Rule Default Type";
+                    usv2 = new UtilSysV2();
+                    usv2.queryYNScreenStr1 = "";
                     jtf1.setText("");
                     usv2.commandNumber = "2";
                     new QueryYNLoadScreen(usv2);

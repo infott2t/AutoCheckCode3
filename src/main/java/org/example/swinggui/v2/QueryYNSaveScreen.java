@@ -48,6 +48,7 @@ public class QueryYNSaveScreen extends JFrame{
                     usv2.fileSaveUtilText(usv2.saveText, jtf1.getText()+".txt");
                     btn1.setText("Saved");
                     jl3.setText("Now Make File : " + usv2.fileSaveDirectory + jtf1.getText()+".txt");
+                   // usv2.tableName = "0. | " + jtf1.getText();
                 }
             }
         });

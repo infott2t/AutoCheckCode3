@@ -1,5 +1,8 @@
 package org.example.swinggui.v2;
 
+import org.example.swinggui.v2.screen.Comm03NewScreen;
+import org.example.swinggui.v2.screen.NewScreen;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -97,11 +100,19 @@ public class Sys02 extends JFrame {
                      * ***/
                 }
                 else if(jtf1.getText().equals("1")){
-
+                    usv2.queryYNScreenStr1 = "Rule Default Type";
+                    usv2.saveText = jta1.getText();
+                    jtf1.setText("");
+                    new QueryYNSaveScreen(usv2);
                 }
-                else if(jtf1.getText().equals("2")){}
+                else if(jtf1.getText().equals("2")){
+                    usv2.queryYNScreenStr1 = "Rule Default Type";
+                    jtf1.setText("");
+                    new QueryYNLoadScreen(usv2);
+                }
                 else if(jtf1.getText().equals("3")){
-
+                    usv2 = new UtilSysV2("New File");
+                    new Comm03NewScreen(usv2);
                 }
             }
         });

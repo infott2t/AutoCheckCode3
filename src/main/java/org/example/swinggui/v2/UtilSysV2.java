@@ -9,6 +9,9 @@ public class UtilSysV2 {
     public static String fileSaveDirectory;
     public static String saveText ="";
 
+    public UtilSysV2(){
+
+    }
 
 
     public UtilSysV2(String tableName){

@@ -164,7 +164,7 @@ public class TexttingC {
             "\n ";;
 
 
-    TexttingC() {
+    public TexttingC() {
 
     }
 

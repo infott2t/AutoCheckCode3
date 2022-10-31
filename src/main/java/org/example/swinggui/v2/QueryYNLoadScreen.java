@@ -1,5 +1,7 @@
 package org.example.swinggui.v2;
 
+import org.example.swinggui.v2.screen.DefaultResultScreen;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -49,7 +51,12 @@ public class QueryYNLoadScreen extends JFrame{
                     btn1.setText("Loaded");
                     jl3.setText("Now Load File : " + usv2.fileSaveDirectory + jtf1.getText()+".txt");
                     usv2.tableName =  jtf1.getText();
-                    new Comm00_DefaultRuleScreen(usv2);
+                    if("2".equals(usv2.commandNumber)){
+                        new DefaultResultScreen(usv2);
+                    }else{
+                        new Comm00_DefaultRuleScreen(usv2);
+                    }
+
                 }
             }
         });

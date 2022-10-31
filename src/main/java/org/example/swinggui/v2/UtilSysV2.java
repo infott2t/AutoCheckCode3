@@ -9,6 +9,8 @@ public class UtilSysV2 {
     public static String fileSaveDirectory;
     public static String saveText ="";
 
+    public static String commandNumber;
+
     public UtilSysV2(){
 
     }

@@ -18,8 +18,8 @@ public class DefaultResultScreen extends JFrame{
 
     public String className;
 
-    DefaultResultScreen(UtilSysV2 usc){
-        className = usc.tableName;
+    public DefaultResultScreen(UtilSysV2 usv2){
+        className = usv2.tableName;
         jp= new JPanel();
         jl = new JLabel(" ");
         jta = new JTextArea(20,50);
@@ -34,7 +34,7 @@ public class DefaultResultScreen extends JFrame{
         setTitle(": " + className);
         setBounds(300,300,650,500);
 
-        jta.setText("");
+        jta.setText(usv2.saveText);
 
         String code = jta.getText();
         /*
